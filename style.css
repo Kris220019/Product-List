@@ -1,0 +1,23 @@
+.header {
+  font-size: 1.7em;
+  font-family: Noto Sans, sans-serif;
+}
+
+.input-group-prepend {
+  margin-right: 15px;
+}
+
+.btn {
+  margin-bottom: 8px;
+  font-size: 0.8em;
+}
+
+.form-check-input {
+  margin-top: -0.6rem;
+  margin-left: -0.7rem;
+}
+
+.content {
+  margin-left: 0.95rem;
+  text-align: center;
+}

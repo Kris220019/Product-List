@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Product List</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <br />
+      <div
+        class="btn-toolbar justify-content-between"
+        role="toolbar"
+        aria-label="Toolbar with button groups"
+      >
+        <div class="header">Product List</div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-outline-dark">
+                Mass Delete Action
+              </button>
+              <button
+                type="button"
+                id="massDeleteButton"
+                class="btn btn-outline-dark dropdown-toggle dropdown-toggle-split"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Mass Delete Action</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" id="massEditOption"
+                  >Mass Delete Action</a
+                >
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-outline-dark">Apply</button>
+        </div>
+      </div>
+      <hr />
+      <div class="card-deck">
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              JVC200123 <br />Acme DISC <br />100 $ <br />Size: 700 MB
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              JVC200123 <br />Acme DISC <br />100 $ <br />Size: 700 MB
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              JVC200123 <br />Acme DISC <br />100 $ <br />Size: 700 MB
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              JVC200123 <br />Acme DISC <br />100 $ <br />Size: 700 MB
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card-deck">
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              GGWP0007 <br />War and Peace <br />20 00 $ <br />Weight: 2 KG
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              GGWP0007 <br />War and Peace <br />20 00 $ <br />Weight: 2 KG
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              GGWP0007 <br />War and Peace <br />20 00 $ <br />Weight: 2 KG
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              GGWP0007 <br />War and Peace <br />20 00 $ <br />Weight: 2 KG
+            </p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="card-deck">
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              TR120555 <br />Chair <br />40 00 $ <br />Dimension: 24x45x15
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              TR120555 <br />Chair <br />40 00 $ <br />Dimension: 24x45x15
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              TR120555 <br />Chair <br />40 00 $ <br />Dimension: 24x45x15
+            </p>
+          </div>
+        </div>
+        <div class="card" id="product">
+          <div class="card-body">
+            <input type="checkbox" class="form-check-input" id="" />
+            <p class="card-text content">
+              TR120555 <br />Chair <br />40 00 $ <br />Dimension: 24x45x15
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
